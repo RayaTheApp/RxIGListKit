@@ -4,8 +4,8 @@ import PackageDescription
 let package = Package(
   name: "RxIGListKit",
   platforms: [
-    .iOS(.v9),
-    .tvOS(.v9),
+    .iOS(.v13),
+    .tvOS(.v13),
   ],
   products: [
     .library(name: "RxIGListKit", targets: ["RxIGListKit"]),
