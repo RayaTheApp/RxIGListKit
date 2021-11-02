@@ -80,6 +80,7 @@
 		0E2A00BDCABBD11829BB5BD4 /* Pods-RxIGListKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxIGListKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxIGListKit_Example/Pods-RxIGListKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1E0C94DF3469DA7D211A3E14 /* Pods-RxIGListKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxIGListKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxIGListKit_Tests/Pods-RxIGListKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2EC1BDDB91B48E3CCEFF675A /* Pods_RxIGListKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxIGListKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		392ACC042731C74000AFC10F /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../Package.swift; sourceTree = "<group>"; };
 		45BA07AF27EAEBFB31D84918 /* Pods-RxIGListKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxIGListKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxIGListKit_Example/Pods-RxIGListKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* RxIGListKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxIGListKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -179,6 +180,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				392ACC042731C74000AFC10F /* Package.swift */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for RxIGListKit */,
 				607FACE81AFB9204008FA782 /* Tests */,
