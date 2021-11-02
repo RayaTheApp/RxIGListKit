@@ -21,6 +21,7 @@ let package = Package(
         .product(name: "IGListSwiftKit", package: "IGListKit"),
         .product(name: "RxCocoa", package: "RxSwift"),
       ],
-      path: "RxIGListKit/Classes"),
+      path: "RxIGListKit",
+      sources: ["Classes/"]),
   ]
 )
