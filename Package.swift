@@ -12,7 +12,7 @@ let package = Package(
   ],
   dependencies: [
     .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "5.0.0")),
-    .package(url: "https://github.com/Instagram/IGListKit.git", .branch("main")),
+    .package(url: "https://github.com/RayaTheApp/IGListKit.git", .branch("fix-spm")),
   ],
   targets: [
     .target(
