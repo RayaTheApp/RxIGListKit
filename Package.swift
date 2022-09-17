@@ -11,7 +11,7 @@ let package = Package(
     .library(name: "RxIGListKit", targets: ["RxIGListKit"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "5.0.0")),
+    .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "6.0.0")),
     .package(url: "https://github.com/RayaTheApp/IGListKit.git", .branch("fix-spm")),
   ],
   targets: [
